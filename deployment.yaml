@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: healthcare
-        image: vikuldocker/healthcare-vikul:1
+        image: gnanaprakash7/healthcareproject:$BUILD_NUMBER
         ports:
         - containerPort: 8082
 
